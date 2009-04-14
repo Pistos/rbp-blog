@@ -21,7 +21,7 @@ We wanted to allow the use of Textile, and not make people use a browser for edi
 
 Relying on Git for that back end is stunningly perfect. Git provides versioning, access control, and distributed contributions.
 
-It becomes the database layer common to most blogging tools. For free.  Right off the bat, no need to write any admin tools or content versioning code  .   
+It becomes the database layer common to most blogging tools. For free.  Right off the bat, no need to write any admin tools or content versioning code.
 
 At the heart of Korma is the "grit":http://github.com/mojombo/grit/tree/master gem. As the project blurb says, "Grit gives you object oriented read/write access to Git repositories via Ruby."  Very sweet.
 
