@@ -1,6 +1,12 @@
 <html>
   <head>
-    <link href="/styles.css" rel="stylesheet" type="text/css">
+    <title>Ruby Best Practices - Blog</title>
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.rubybestpractices.com/feed.xml">
+    <link href="/styles.css", rel="stylesheet", type="text/css">
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/ie6.css" media="screen,projection" />
+    <![endif]-->
   </head>
   <body>
     <div class="wrapper">
@@ -25,6 +31,7 @@
           <% end %>
           <p>About: <a href="/about">blog</a> |
           <a href="http://rubybestpractices.com">book</a> 
+        </div>
           </div>
         </div>
       </div>
@@ -39,5 +46,14 @@
       </div>
     </div>
   </div>
+
+  <link type="text/css" rel="stylesheet" href="/SyntaxHighlighter.css"></link>
+  <script language="javascript" src="/scripts/shCore.js"></script>
+  <script language="javascript" src="/scripts/shBrushRuby.js"></script>
+  <script language="javascript">
+  dp.SyntaxHighlighter.ClipboardSwf = '/scripts/clipboard.swf';
+  dp.SyntaxHighlighter.HighlightAll('code');
+  </script>
+    
   </body>
 </html>
